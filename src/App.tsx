@@ -10,6 +10,7 @@ import type { TimeRequirement } from "./types/Time";
 import { HeartPieceCard } from "./components/HeartPieceCard";
 
 import Filters from "./components/Filters";
+import { ProgressBar } from "./components/ProgressBar";
 
 type RegionFilter = RegionRequirement;
 type AgeFilter = AgeRequirement;
@@ -78,10 +79,10 @@ export const App: React.FC = () => {
         onTimeChange={setTimeOfDayFilter}
       />
 
-      <p>
-        Collected {collectedHeartPieceIds.length} / {heartPieces.length} heart
-        pieces.
-      </p>
+      <ProgressBar
+        current={collectedHeartPieceIds.length}
+        total={heartPieces.length}
+      />
 
       <div className="cards-container">
         {filteredPieces.map((piece) => (
