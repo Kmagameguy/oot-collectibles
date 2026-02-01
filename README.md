@@ -7,7 +7,7 @@ During my last playthrough of Ocarina of Time I found myself wanting a way to ke
 So, I decided to write a little application.  Hence this repo.
 
 # Usage
-1. Open the application's home page
+1. Open the application's [home page](https://kmagameguy.github.io/oot-collectibles)
 1. You can interact with the filters to slice heart piece data by region, age requirement, and time of day requirement
 1. You can mark a heart piece as collected and the app will show you a count of pieces collected vs total pieces available in the game
 1. Your heart piece collection is pesisted locally using the localStorage API, so as long as you don't clear your browser cache/cookies you can leave and come back to the site at any time to pick up where you left off
