@@ -85,14 +85,20 @@ export const App: React.FC = () => {
       />
 
       <div className="cards-container">
-        {filteredPieces.map((piece) => (
-          <HeartPieceCard
-            key={piece.id}
-            piece={piece}
-            collected={collectedHeartPieceIds.includes(piece.id)}
-            onToggleCollected={toggleCollectedHeartPieces}
-          />
-        ))}
+        {filteredPieces.length > 0 ? (
+	  filteredPieces.map((piece) => (
+            <HeartPieceCard
+              key={piece.id}
+              piece={piece}
+              collected={collectedHeartPieceIds.includes(piece.id)}
+              onToggleCollected={toggleCollectedHeartPieces}
+            />
+          ))
+	) : (
+	  <p className="no-results-message">
+	    ⚠️ No heart pieces match your current filters.
+	  </p>
+	)}
       </div>
     </main>
   );
