@@ -51,3 +51,9 @@
 .card-toggle:hover {
   background-color: #1976d2;
 }
+
+@media (prefers-reduced-motion: reduce) {
+  .card {
+    transition: none;
+  }
+}
