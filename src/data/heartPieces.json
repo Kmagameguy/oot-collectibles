@@ -1,0 +1,333 @@
+[
+  {
+    "id": "dc_1",
+    "name": "Desert Colossus 1",
+    "region": "Desert Colossus",
+    "age": "Both",
+    "timeOfDay": "Any",
+    "requirements": ["Magic Beans"],
+    "description": "Plant a magic bean in the soil patch just in front of the Spirit Temple entrance. Return as an adult and ride the magic plant to reach the top of the stone archway. Collect the Piece of Heart on top."
+  },
+  {
+    "id": "dm_crater_1",
+    "name": "Death Mountain Crater 1",
+    "region": "Death Mountain",
+    "age": "Any",
+    "timeOfDay": "Any",
+    "requirements": [],
+    "description": "Inside Death Mountain is a huge wall you can climb with an alcove in the center.  Reach the alcove to find a Piece of Heart."
+  },
+  {
+    "id": "dm_crater_2",
+    "name": "Death Mountain Crater 2",
+    "region": "Death Mountain",
+    "age": "Both",
+    "timeOfDay": "Any",
+    "requirements": ["Bolero of Fire", "Magic Beans"],
+    "description": "As a child use Bolero of Fire to warp into Death Mountain Crater. Plant a Magic Bean in the soil next to the warp platform. Return as an adult and ride the magic plant up to the mountain with the Piece of Heart on top."
+  },
+  {
+    "id": "dm_goron_city_1",
+    "name": "Goron City 1",
+    "region": "Death Mountain",
+    "age": "Child",
+    "timeOfDay": "Any",
+    "requirements": ["Goron's Bracelet"],
+    "description": "Light all the torches in the bottom level of Goron City to awaken the giant, spinning urn.  Throw the Goron's Special Crop into the base until the vase stops spinning on the 'smiling' face to receive a Piece of Heart."
+  },
+  {
+    "id": "dm_trail_1",
+    "name": "Death Mountain Trail 1",
+    "region": "Death Mountain",
+    "age": "Both",
+    "timeOfDay": "Any",
+    "requirements": ["Magic Beans (Optional)"],
+    "description": "As a child, go to the alcove next to the entrance to Goron City. Backflip over the fence where the 'Goron's Special Crop' is growing to land on top of the entrance to Dodongo's Cavern. Retrieve the Piece of Heart. Alternatively, plant a Magic Bean in the soil in front of Dodongo's Cavern and return as an Adult to ride the magic plant up to the top of the cavern entrance."
+  },
+  {
+    "id": "gv_1",
+    "name": "Gerudo Valley 1",
+    "region": "Gerudo Valley",
+    "age": "Any",
+    "timeOfDay": "Any",
+    "requirements": [],
+    "description": "Drop behind the waterfall in the valley. Climb the ladder behind the waterfall to reach an alcove containing a Piece of Heart."
+  },
+  {
+    "id": "gv_2",
+    "name": "Gerudo Valley 2",
+    "region": "Gerudo Valley",
+    "age": "Any",
+    "timeOfDay": "Any",
+    "requirements": [],
+    "description": "Look for a wooden container on a ledge on the side of the valley. Break open the container to find a Piece of Heart."
+  },
+  {
+    "id": "gv_fortress_1",
+    "name": "Gerudo's Fortress 1",
+    "region": "Gerudo Valley",
+    "age": "Adult",
+    "timeOfDay": "Any",
+    "requirements": ["Gerudo Membership Card", "Scarecrow's Song", "Longshot"],
+    "description": "At the top of the fortress is a treasure cchest. Reach the highest point opposite and play the Scarecrow's Song to summon Pierre. Use the longshot to reach the chest which contains a Heart Piece."
+  },
+  {
+    "id": "gv_fortress_2",
+    "name": "Gerudo's Fortress 2",
+    "region": "Gerudo Valley",
+    "age": "Adult",
+    "timeOfDay": "Any",
+    "requirements": ["Gerudo Membership Card", "Fairy Bow", "Epona"],
+    "description": "Go to the Archery Range behind Gerudo's Fortress. Score over 1,000 points to be awarded a Piece of Heart."
+  },
+  {
+    "id": "hc_market_1",
+    "name": "Hyrule Castle Market 1",
+    "region": "Hyrule Castle",
+    "age": "Child",
+    "timeOfDay": "Night",
+    "requirements": [],
+    "description": "Go to the Hyrule Castle market at night.  Find the white dog named 'Little Richard' and bring him home to its owner in the Back Alley of the market."
+  },
+  {
+    "id": "hc_market_2",
+    "name": "Hyrule Castle Market 2",
+    "region": "Hyrule Castle",
+    "age": "Child",
+    "timeOfDay": "Day",
+    "requirements": ["Goron's Special Crop"],
+    "description": "Go to the Bowling Alley in Hyrule Castle Market. Keep winning the game until you receive a Piece of Heart."
+  },
+  {
+    "id": "hc_market_3",
+    "name": "Hyrule Castle Market 3",
+    "region": "Hyrule Castle",
+    "age": "Child",
+    "timeOfDay": "Night",
+    "requirements": ["Lens of Truth"],
+    "description": "Go to the Treasure Chest Shop in the Hyrule Market at night. Pay 10 Rupees to start the game and use the Lens of Truth to find the small keys in each of the treasure chests. Get to the last room to receive a Heart Piece."
+  },
+  {
+    "id": "hf_1",
+    "name": "Hyrule Field 1",
+    "region": "Hyrule Field",
+    "age": "Any",
+    "timeOfDay": "Any",
+    "requirements": ["Goron's Special Crop"],
+    "description": "Go to the fenced-in area just outside the entrance to Lake Hylia. Use the 'Goron's Special Crop' in the middle of the fenced in area to reveal a secret hole. Drop down, defeat the Business Scrub, and buy the Piece of Heart from it for 10 Rupees."
+  },
+  {
+    "id": "hf_2",
+    "name": "Hyrule Field 2",
+    "region": "Hyrule Field",
+    "age": "Any",
+    "timeOfDay": "Any",
+    "requirements": ["Goron's Special Crop", "Golden Scale or Iron Boots"],
+    "description": "Find the lone tree northwest of Lon Long Ranch, between Hyrule Castle and Gerudo Valley. Place the 'Goron's Special Crop' next to the tree to reveal a hold. Drop down and then use the Golden Scale or Iron Boots to reach the Piece of Heart at the bottom of the pool."
+  },
+  {
+    "id": "ic_1",
+    "name": "Ice Cavern 1",
+    "region": "Ice Cavern",
+    "age": "Adult",
+    "timeOfDay": "Any",
+    "requirements": ["Blue Fire"],
+    "description": "In the room where you find the compass is a Heart Piece encased in red ice. Use Blue Fire to melt the ice and retrieve it."
+  },
+  {
+    "id": "kv_1",
+    "name": "Kakariko Village 1",
+    "region": "Kakariko Village",
+    "age": "Any",
+    "timeOfDay": "Any",
+    "requirements": [],
+    "description": "Get onto the awning of the Cucco pen to enter a house which has a Piece of Heart inside.  To get there as a child: Catch a ride from the Owl atop Death Mountain.  To get there as an adult: Hookshot to the roof of the House of Skulltula then jump onto the awning."
+  },
+  {
+    "id": "kv_2",
+    "name": "Kakariko Village 2",
+    "region": "Kakariko Village",
+    "age": "Any",
+    "timeOfDay": "Any",
+    "requirements": [],
+    "description": "As a Child, climb to the top of the lookout tower. Face south, z-target, then side jump left to land on top of a fence. Carefully climb to the roof of the house and talk to the guy sitting down and you'll receive a Piece of Heart. Alternatively as an Adult use the Hookshot to get onto the roof."
+  },
+  {
+    "id": "kv_graveyard_1",
+    "name": "Kakariko Village Graveyard 1",
+    "region": "Kakariko Village",
+    "age": "Child",
+    "timeOfDay": "Any",
+    "requirements": ["Sun's Song"],
+    "description": "Go to the Royal Family's Tomb and turn back to the exit. Find the tombstone second-from-the-right in the row of tombstones directly in front of you.  Pull it back, drop down into the hole, and defeat the ReDead.  Play the sun's Song on the steps to reveal the chest containing the Piece of Heart."
+  },
+  {
+    "id": "kv_graveyard_2",
+    "name": "Kakariko Village Graveyard 2",
+    "region": "Kakariko Village",
+    "age": "Child",
+    "timeOfDay": "Night",
+    "requirements": ["Rupees (10 per dig)"],
+    "description": "Gather a lot of rupees and enter the Graveyard between 18:00 and 21:00 (The guard at the entrance to Kakariko Village will tell you the time). Play Dampe's Heart-Pounding Gravedigging Tour. He will dig while standing on a patch of soft soil for 10 Rupees. Keep asking him to dig until you eventually find a Piece of Heart."
+  },
+  {
+    "id": "kv_graveyward_3",
+    "name": "Kakariko Village Graveyard 3",
+    "region": "Kakariko Village",
+    "age": "Adult",
+    "timeOfDay": "Any",
+    "requirements": ["Magic Beans or Longshot"],
+    "description": "The easiest way to collect this piece of heart is to use the Longshot on the wooden create on top of the ledge.  Otherwise you'll need to plant a Magic Bean as a child in the patch of soil, then return as an adult to ride the magic plant up to the same ledge.Either way, break open the wooden crate to collect a Piece of Heart."
+  },
+  {
+    "id": "kv_graveyard_4",
+    "name": "Kakariko Village Graveyard 4",
+    "region": "Kakariko Village",
+    "age": "Adult",
+    "timeOfDay": "Any",
+    "requirements": ["Hookshot"],
+    "description": "After acquiring the Hookshot you can challenge Dampe to another race. Win the race in under a minute and you'll receive a Piece of Heart."
+  },
+  {
+    "id": "kv_house_of_skulltula",
+    "name": "Kakariko Village House of Skulltula 1",
+    "region": "Kakariko Village",
+    "age": "Any",
+    "timeOfDay": "Any",
+    "requirements": ["50 Gold Skulltula Tokens"],
+    "description": "Claim your Piece of Heart from the House of Skulltula."
+  },
+  {
+    "id": "kv_windmill_1",
+    "name": "Kakariko Village Windmill 1",
+    "region": "Kakariko Village",
+    "age": "Any",
+    "timeOfDay": "Any",
+    "requirements": ["Boomerang (Child)"],
+    "description": "As a Child, enter the windmill and use the Boomerang to retrieve the Piece of Heart from the ledge. Alternatively, race Dampe as an Adult and carefully cross the Windmill's upper section to collect the Piece of Heart from the ledge."
+  },
+  {
+    "id": "lh_1",
+    "name": "Lake Hylia 1",
+    "region": "Lake Hylia",
+    "age": "Child",
+    "timeOfDay": "Any",
+    "requirements": [],
+    "description": "Catch a 10+ pound fish at the Fishing Pond."
+  },
+  {
+    "id": "lh_2",
+    "name": "Lake Hylia 2",
+    "region": "Lake Hylia",
+    "age": "Both",
+    "timeOfDay": "Any",
+    "requirements": ["Magic Beans or Scarecrow's Song"],
+    "description": "Plant a magic bean in the soil next to the Lakeside Laboratory as a Child. Return as an Adult and ride the magic plant or use the Scarecrow's song to hookshot to the roof of the Laboratory. Climb the ladder to reach a Piece of Heart."
+  },
+  {
+    "id": "lh_lakeside_laboratory_1",
+    "name": "Lake Hylia Lakeside Laboratory 1",
+    "region": "Lake Hylia",
+    "age": "Any",
+    "timeOfDay": "Any",
+    "requirements": ["Golden Scale"],
+    "description": "Dive to the bottom of the pool in the Lakeside Laboratory. Talk to the Scientist to be rewarded with a Piece of Heart."
+  },
+  {
+    "id": "llr_1",
+    "name": "Lon Lon Ranch 1",
+    "region": "Lon Lon Ranch",
+    "age": "Child",
+    "timeOfDay": "Any",
+    "requirements": [],
+    "description": "Enter the storage building at the back of the ranch. Pull the milk crates back to reveal a hole you can crawl through. Go through the hole to find the Piece of Heart."
+  },
+  {
+    "id": "lw_1",
+    "name": "Lost Woods 1",
+    "region": "Lost Woods",
+    "age": "Child",
+    "timeOfDay": "Any",
+    "requirements": ["Ocarina"],
+    "description": "Find the two Skull Kids standing on a tree. Stand on the stump and bring out your Ocarina. Successfully play along to their songs to receive a Piece of Heart."
+  },
+  {
+    "id": "lw_2",
+    "name": "Lost Woods 2",
+    "region": "Lost Woods",
+    "age": "Child",
+    "timeOfDay": "Any",
+    "requirements": ["Saria's Song"],
+    "description": "Find the lone Skull Kid standing on a tree stump. Stand on the smaller stump and bring out your Ocarina. Play Saria's song and you'll be rewarded with a Piece of Heart."
+  },
+  {
+    "id": "zr_1",
+    "name": "Zora's River 1",
+    "region": "Zora's River",
+    "age": "Any",
+    "timeOfDay": "Any",
+    "requirements": [],
+    "description": "Grab the Cucco and carry it up past the singing frogs. Double back and fly to the ledge at the bottom of the tallest block of land. Climb the ladder to the top and grab the second Cucco. Fly to the pillar with a Piece of Heart on top and collect it."
+  },
+  {
+    "id": "zr_2",
+    "name": "Zora's River 2",
+    "region": "Zora's River",
+    "age": "Any",
+    "timeOfDay": "Any",
+    "requirements": [],
+    "description": "Grab the Cucco and carry it all the way to the end of Zora's River. Go to the platform in front of the waterfall where you normally play Zelda's Lullaby to enter Zora's Domain. Use the Cucco to fly to the platform with the Piece of Heart on top."
+  },
+  {
+    "id": "zr_3",
+    "name": "Zora's River 3",
+    "region": "Zora's River",
+    "age": "Child",
+    "timeOfDay": "Any",
+    "requirements": ["Song of Storms"],
+    "description": "In Zora's River is a log with 5 frogs. Stand on the log opposite and bring out your Ocarina. Play the Song of Storms to receive a Heart Piece."
+  },
+  {
+    "id": "zr_4",
+    "name": "Zora's River 4",
+    "region": "Zora's River",
+    "age": "Child",
+    "timeOfDay": "Any",
+    "requirements": [
+      "Song of Storms Frog Heart Piece",
+      "Zelda's Lullaby",
+      "Saria's Song",
+      "Epona's Song",
+      "Sun's Song",
+      "Song of Time"
+    ],
+    "description": "In Zora's River is a log with 5 frogs. Stand on the log opposite and bring out your Ocarina. After getting the Song of Storms Heart Piece from the frogs, play each of the required songs to make the frogs grow. Once all 5 are grown, bring out your Ocarina again and feed the butterflies to the frogs to receive another Heart Piece."
+  },
+  {
+    "id": "zr_zoras_domain_1",
+    "name": "Zora's Domain 1",
+    "region": "Zora's River",
+    "age": "Child",
+    "timeOfDay": "Any",
+    "requirements": [],
+    "description": "Light all the torches in Zora's domain with a Deku stick and you'll be rewarded with a Piece of Heart."
+  },
+  {
+    "id": "zr_zoras_fountain_1",
+    "name": "Zora's Fountain 1",
+    "region": "Zora's River",
+    "age": "Adult",
+    "timeOfDay": "Any",
+    "requirements": [],
+    "description": "Jump across the floating icebergs to retrieve the Piece of Heart which sits on one of them."
+  },
+  {
+    "id": "zr_zoras_fountain_2",
+    "name": "Zora's Fountain 2",
+    "region": "Zora's River",
+    "age": "Adult",
+    "timeOfDay": "Any",
+    "requirements": ["Iron Boots"],
+    "description": "Use the Iron Boots to reach the bottom of the Zora's Fountain Lake.  At the lowest point is a Heart Piece."
+  }
+]
