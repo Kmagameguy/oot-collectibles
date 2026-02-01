@@ -1,73 +1,28 @@
-# React + TypeScript + Vite
+# The Legend of Zelda: Ocarina of Time Collectibles Tracker
+During my last playthrough of Ocarina of Time I found myself wanting a way to keep track of a few things:
+1. How many heart pieces there were to collect
+1. Which heart pieces I'd already collected
+1. A filterable list of the heart pieces to make bulk collection easier
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+So, I decided to write a little application.  Hence this repo.
 
-Currently, two official plugins are available:
+# Usage
+1. Open the application's home page
+1. You can interact with the filters to slice heart piece data by region, age requirement, and time of day requirement
+1. You can mark a heart piece as collected and the app will show you a count of pieces collected vs total pieces available in the game
+1. Your heart piece collection is pesisted locally using the localStorage API, so as long as you don't clear your browser cache/cookies you can leave and come back to the site at any time to pick up where you left off
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Development
+## Pre-requisites
+1. Node (I manage this with nvm)
+1. TypeScript + Vite
 
-## React Compiler
+## Running the Dev Server
+1. Run `npm run dev`
+1. This should start up a local webserver and host the page at `http://localhost:5173/oot-collectibles/` (note: the trailing slash is mandatory)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# Potential Future Improvements:
+1. Add a Gold Skulltula tracker with similar features
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+# Notes
+TypeScript + Vite are definitely overkill for this.  However, I wanted to check them out so I figured this would be a simple, straightforward playground to do that.
