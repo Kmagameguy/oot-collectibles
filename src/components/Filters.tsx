@@ -29,7 +29,7 @@ function Filters({
   return (
     <section className="filters-container">
       <label>
-        Region:{" "}
+        Region{" "}
         <select
           value={regionFilter}
           onChange={(e) => {
